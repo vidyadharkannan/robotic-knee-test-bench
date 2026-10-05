@@ -58,7 +58,7 @@ To estimate the Instantaneous Centre of Rotation, I used the Reuleaux geometric 
 </p>
 
 <p align="center">
-  <img src="images/image.png" width="650">
+  <img src="images/image.png" width="450">
 </p>
 
 <p align="center">
@@ -70,4 +70,16 @@ To estimate the Instantaneous Centre of Rotation, I used the Reuleaux geometric 
 <p align="justify">
 Repeating this calculation throughout the motion produced a reference trajectory showing how the knee ICR migrates during flexion–extension.
 </p>
+
+
+<p align="center">
+  <img src="images/icr_trajectory_AP_SI1" width="450">
+</p>
+
+<p align="center">
+  <em>Reference knee ICR trajectory reconstructed from the measured tibiofemoral kinematics.</em>
+</p>
+
+
+
 
