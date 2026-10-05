@@ -50,11 +50,11 @@ The work was structured around four main questions:
 ### Reconstructing the Knee ICR
 
 <p align="justify">
-The first step was to determine how the centre of rotation of the knee changes during flexion–extension. I used tibiofemoral kinematic data from the University of Denver Living Kinematics of the Knee dataset, measured using high-speed stereo radiography. The flexion–extension (FE) angle together with the anterior–posterior (AP) and superior–inferior (SI) translations were used to reconstruct the motion of the tibia in the sagittal plane.
+The first step was to determine how the centre of rotation of the knee changes during flexion–extension. I used tibiofemoral kinematic data from the University of Denver Living Kinematics of the Knee dataset (https://digitalcommons.du.edu/living_kinematics_knee/1/), measured using high-speed stereo radiography. The flexion–extension (FE) angle, together with the anterior–posterior (AP) and superior–inferior (SI) translations, was used to reconstruct the motion of the tibia in the sagittal plane.
 </p>
 
 <p align="justify">
-To estimate the Instantaneous Centre of Rotation, I used the Reuleaux geometric method. Two reference points were considered rigidly attached to the tibia and their positions were reconstructed at consecutive configurations. The perpendicular bisectors of their displacements intersect at the instantaneous centre of rotation.
+To estimate the Instantaneous Centre of Rotation, I used the Reuleaux geometric method. Two reference points were considered rigidly attached to the tibia, and their positions were reconstructed at consecutive configurations. The perpendicular bisectors of their displacements intersect at the instantaneous centre of rotation.
 </p>
 
 <p align="justify">
