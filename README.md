@@ -80,6 +80,23 @@ Repeating this calculation throughout the motion produced a reference trajectory
   <em>Reference knee ICR trajectory reconstructed from the measured tibiofemoral kinematics.</em>
 </p>
 
+## 2. Cross Four-Bar Design and Optimisation
 
+### From the Reference ICR to a Mechanism
 
+<p align="justify">
+Once the reference knee ICR trajectory had been reconstructed, the next challenge was to design a mechanism capable of reproducing a similar moving centre of rotation. A cross four-bar mechanism was selected because its instantaneous centre of rotation is defined by the intersection of its two crossed links and naturally changes as the mechanism moves.
+</p>
+
+<p align="justify">
+By modifying the link lengths and geometric orientation of the mechanism, the resulting ICR trajectory can be shaped. This made it possible to formulate the mechanism design as an optimisation problem, where the objective was to find a geometry whose ICR trajectory closely approximated the reference knee ICR.
+</p>
+
+<p align="center">
+  <img src="images/cross_four_bar_model.png" width="650">
+</p>
+
+<p align="center">
+  <em>Kinematic model of the cross four-bar mechanism used for the design and optimisation.</em>
+</p>
 
