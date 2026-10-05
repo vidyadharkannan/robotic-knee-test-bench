@@ -73,7 +73,7 @@ Repeating this calculation throughout the motion produced a reference trajectory
 
 
 <p align="center">
-  <img src="images/icr_trajectory_AP_SI1" width="450">
+  <img src="images/icr_trajectory_AP_SI1.png" width="450">
 </p>
 
 <p align="center">
