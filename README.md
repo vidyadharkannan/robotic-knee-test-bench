@@ -57,6 +57,16 @@ The first step was to determine how the centre of rotation of the knee changes d
 To estimate the Instantaneous Centre of Rotation, I used the Reuleaux geometric method. Two reference points were considered rigidly attached to the tibia, and their positions were reconstructed at consecutive configurations. The perpendicular bisectors of their displacements intersect at the instantaneous centre of rotation.
 </p>
 
+<p align="center">
+  <img src="images/image.png" width="650">
+</p>
+
+<p align="center">
+  <em>Geometric estimation of the knee ICR using the Reuleaux method.</em>
+</p>
+
+
+
 <p align="justify">
 Repeating this calculation throughout the motion produced a reference trajectory showing how the knee ICR migrates during flexion–extension.
 </p>
