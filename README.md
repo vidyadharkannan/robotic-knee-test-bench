@@ -93,7 +93,7 @@ By modifying the link lengths and geometric orientation of the mechanism, the re
 </p>
 
 <p align="center">
-  <img src="images/cross_fourbar_model" width="650">
+  <img src="images/cross_fourbar_model.png" width="650">
 </p>
 
 <p align="center">
