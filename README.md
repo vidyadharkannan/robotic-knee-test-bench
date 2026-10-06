@@ -195,6 +195,19 @@ The optimised cross four-bar mechanism was integrated with a **Franka Research 3
 </p>
 
 
+### Control Framework
+
+The robot control framework was implemented in **ROS 2**. The desired Cartesian motion was mapped to FR3 joint velocities using the pseudoinverse of the robot Jacobian. The mechanism ICR was transformed into the FR3 base frame so that the robot motion could be generated around the prescribed centre of rotation.
+
+<p align="center">
+  <img src="images/control_framework.png" width="650">
+</p>
+
+<p align="center">
+  <em>ROS 2 control framework used for the FR3 robotic test bench.</em>
+</p>
+
+
 
 
 
