@@ -256,6 +256,7 @@ The Fixed ICR strategy showed consistently higher interaction forces over much o
 
 The following experiment shows the FR3 and optimised cross four-bar mechanism performing the prescribed flexion–extension motion on the physical test bench.
 
+https://github.com/user-attachments/assets/ffddfd18-4c4d-4b1e-884f-40d5fc5f038a
 
 
 *Physical validation of the FR3-based knee motion test bench during flexion–extension.*
