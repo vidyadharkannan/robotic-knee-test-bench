@@ -177,7 +177,11 @@ The optimised geometric parameters were used to design the final cross four-bar 
   <em>CAD design and manufactured prototype of the optimised cross four-bar mechanism.</em>
 </p>
 
+## 3. FR3 Integration and Robot Control
 
+### Robotic Test Bench Integration
+
+The optimised cross four-bar mechanism was integrated with a **Franka Research 3 (FR3)** collaborative robot. The FR3 provided the actuation required for the prescribed flexion–extension motion, while the passive cross four-bar mechanism generated the moving ICR.
 
 
 
