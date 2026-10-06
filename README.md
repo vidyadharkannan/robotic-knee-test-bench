@@ -160,7 +160,7 @@ I used a Genetic Algorithm in MATLAB to search for the combination of the six ge
 
 ### Optimisation Result
 
-The Genetic Algorithm reduced the contour RMSE between the mechanism-generated and reference knee ICR trajectories from approximately **8 mm ** to **3.28 mm** after optimisation.
+The Genetic Algorithm reduced the contour RMSE between the mechanism-generated and reference knee ICR trajectories from approximately **8 mm** to **3.28 mm** after optimisation.
 
 
 ### From Optimisation to Prototype
@@ -298,9 +298,8 @@ This work resulted in a complete robotic test bench for investigating knee flexi
 - Manufactured the optimised mechanism and integrated it with a **Franka Research 3** robot.
 - Developed a **ROS 2-based joint-velocity control framework** with admittance control for compliant physical interaction.
 - Implemented and experimentally evaluated **Fixed ICR, Moving ICR, and ILC-based** control strategies.
-- Demonstrated Moving ICR control, where the FR3 directly followed the prescribed migrating ICR trajectory during flexion–extension, with admittance control 
-providing compliance during physical interaction.
-- Implemented Iterative Learning Control (ILC) to adapt the desired ICR trajectory between repeated flexion–extension cycles using interaction-wrench feedback.
+- Demonstrated **Moving ICR control**, where the FR3 directly followed the prescribed migrating ICR trajectory during flexion–extension, with admittance control providing compliance during physical interaction.
+- Implemented **Iterative Learning Control (ILC)** to adapt the desired ICR trajectory between repeated flexion–extension cycles using interaction-wrench feedback.
 
 
 Overall, the project demonstrated the feasibility of combining biomechanical motion analysis, mechanism optimisation, and collaborative robot control to reproduce the migrating centre of rotation of the knee on a physical robotic test bench.
