@@ -1,3 +1,6 @@
+
+
+
 # Collaborative Robot-Based Test Bench for Knee Motion Simulation and ICR Estimation
 
 **Master's Thesis — LS2N, École Centrale de Nantes**  
@@ -217,6 +220,7 @@ An admittance controller used the measured external wrench at the robot end-effe
 [Watch the admittance control demonstration]()
 
 *Physical demonstration of the FR3 responding compliantly to external interaction using the admittance controller.*
+https://github.com/user-attachments/assets/700e3930-b33f-4da6-a716-5cc4ab0e31da
 
 
 
