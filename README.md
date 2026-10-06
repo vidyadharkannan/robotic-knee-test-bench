@@ -120,7 +120,7 @@ Although a cross four-bar mechanism naturally generates a moving ICR, its trajec
 
 
 <p align="center">
-  <img src="images/initial_icr_comparison.png" width="650">
+  <img src="images/optimization_results.png" width="450">
 </p>
 
 <p align="center">
