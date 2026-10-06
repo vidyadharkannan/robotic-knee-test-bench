@@ -217,10 +217,9 @@ An admittance controller used the measured external wrench at the robot end-effe
 
 #### Admittance Control Demonstration
 
-[Watch the admittance control demonstration]()
+[Watch the admittance control demonstration](https://github.com/user-attachments/assets/700e3930-b33f-4da6-a716-5cc4ab0e31da)
 
 *Physical demonstration of the FR3 responding compliantly to external interaction using the admittance controller.*
-https://github.com/user-attachments/assets/700e3930-b33f-4da6-a716-5cc4ab0e31da
 
 
 
