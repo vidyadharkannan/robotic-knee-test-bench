@@ -163,6 +163,13 @@ I used a Genetic Algorithm in MATLAB to search for the combination of the six ge
 The Genetic Algorithm reduced the contour RMSE between the mechanism-generated and reference knee ICR trajectories from approximately **8 mm ** to **3.28 mm** after optimisation.
 
 
+### From Optimisation to Prototype
+
+The optimised geometric parameters were used to design the final cross four-bar mechanism in SolidWorks. The mechanism was then manufactured and assembled for integration with the Franka Research 3 robotic test bench.
+
+
+
+
 
 
 
