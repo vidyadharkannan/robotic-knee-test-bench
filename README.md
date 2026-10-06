@@ -186,6 +186,32 @@ The optimised cross four-bar mechanism was integrated with a **Franka Research 3
 
 
 
+<p align="center">
+  <img src="images/fr3_test_bench.jpg" width="600">
+</p>
+
+<p align="center">
+  <em>Experimental test bench integrating the Franka Research 3 with the optimised cross four-bar mechanism.</em>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
