@@ -100,3 +100,22 @@ By modifying the link lengths and geometric orientation of the mechanism, the re
   <em>Kinematic model of the cross four-bar mechanism used for the design and optimisation.</em>
 </p>
 
+
+### Kinematic Model
+
+<p align="justify">
+I modelled the cross four-bar as a closed kinematic chain. For each prescribed flexion–extension angle, the loop-closure equations were solved to determine the dependent joint angles and therefore the complete mechanism configuration. The mechanism ICR was then obtained from the intersection of the crossed links.
+</p>
+
+<p align="justify">
+Repeating this calculation over the complete flexion–extension range generated the ICR trajectory of a candidate mechanism. This trajectory could then be compared with the reference knee ICR obtained in the previous section.
+</p>
+
+
+
+
+
+
+
+
+
