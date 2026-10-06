@@ -169,8 +169,8 @@ The optimised geometric parameters were used to design the final cross four-bar 
 
 
 <p align="center">
-  <img src="images/IMG_20260821_131517612.jpg" width="45%">
   <img src="images/crossfourbar.jpeg" width="45%">
+  <img src="images/IMG_20260821_131517612.jpg" width="45%">
 </p>
 
 <p align="center">
