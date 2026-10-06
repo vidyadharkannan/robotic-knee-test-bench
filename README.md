@@ -227,13 +227,26 @@ Three control strategies were implemented and experimentally evaluated on the FR
 - **Iterative Learning Control (ILC):** Used interaction-wrench information from repeated cycles to adapt the desired ICR trajectory.
 
 
-### Fixed ICR Control
+### Experimental Evaluation
 
-The Fixed ICR controller was used as the baseline strategy. Flexion–extension was performed around a constant prescribed centre of rotation, while the admittance controller provided compliance during interaction.
+The three control strategies were evaluated on the physical FR3 test bench during repeated flexion–extension cycles. Interaction forces and torques were recorded to evaluate and compare the behaviour of the different strategies.
 
-[▶ Watch the Fixed ICR experiment](YOUR_VIDEO_LINK)
+### Experimental Evaluation
 
-*Experimental validation of the Fixed ICR controller on the FR3 test bench.*
+The three control strategies were evaluated on the physical FR3 test bench during repeated flexion–extension cycles. Interaction forces and torques were recorded to compare the behaviour of the different strategies.
+
+<p align="center">
+  <img src="images/01_force_comparison_defence.png" width="700">
+</p>
+
+<p align="center">
+  <em>Interaction force magnitude over one flexion–extension cycle for the Fixed ICR, Moving ICR, and ILC strategies.</em>
+</p>
+
+The Fixed ICR strategy showed consistently higher interaction forces over much of the cycle. The Moving ICR and ILC strategies produced different interaction profiles by allowing the prescribed centre of rotation to vary rather than remaining fixed.
+
+
+
 
 
 
