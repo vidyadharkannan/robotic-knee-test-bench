@@ -187,7 +187,7 @@ The optimised cross four-bar mechanism was integrated with a **Franka Research 3
 
 
 <p align="center">
-  <img src="images/fr3_test_bench.jpg" width="600">
+  <img src="images/crossfour_franka_setup.jpg" width="400">
 </p>
 
 <p align="center">
