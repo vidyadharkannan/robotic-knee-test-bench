@@ -151,7 +151,7 @@ I used a Genetic Algorithm in MATLAB to search for the combination of the six ge
 
 
 <p align="center">
-  <img src="images/optimized_icr_comparison.png" width="650">
+  <img src="images/optimized_icr_comparison.png" width="450">
 </p>
 
 <p align="center">
