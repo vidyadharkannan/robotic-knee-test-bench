@@ -145,7 +145,9 @@ The cross four-bar geometry was defined by six design parameters: four link leng
 </p>
 
 
+### Optimising the Mechanism Geometry
 
+I used a Genetic Algorithm in MATLAB to search for the combination of the six geometric parameters that best reproduced the reference knee ICR. For each candidate geometry, the mechanism ICR trajectory was generated and compared with the reference trajectory, while geometric constraints were used to maintain a feasible mechanism configuration.
 
 
 
