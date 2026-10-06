@@ -208,6 +208,15 @@ The robot control framework was implemented in **ROS 2**. The desired Cartesian 
 </p>
 
 
+### Compliant Interaction
+
+An admittance controller used the measured external wrench at the robot end-effector to generate a compliant velocity correction. This correction was combined with the commanded motion before being mapped to joint velocities through the FR3 Jacobian.
+
+#### Admittance Control Demonstration
+
+[Watch the admittance control demonstration](LINK)
+
+*Physical demonstration of the FR3 responding compliantly to external interaction using the admittance controller.*
 
 
 
