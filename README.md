@@ -168,6 +168,20 @@ The Genetic Algorithm reduced the contour RMSE between the mechanism-generated a
 The optimised geometric parameters were used to design the final cross four-bar mechanism in SolidWorks. The mechanism was then manufactured and assembled for integration with the Franka Research 3 robotic test bench.
 
 
+<p align="center">
+  <img src="images/cross_four_bar_cad.png" width="45%">
+  <img src="images/cross_four_bar_prototype.jpg" width="45%">
+</p>
+
+<p align="center">
+  <em>CAD design and manufactured prototype of the optimised cross four-bar mechanism.</em>
+</p>
+
+
+
+
+
+
 
 
 
