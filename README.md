@@ -246,10 +246,19 @@ The three control strategies were evaluated on the physical FR3 test bench durin
   <em>Interaction force magnitude over one flexion–extension cycle for the Fixed ICR, Moving ICR, and ILC strategies.</em>
 </p>
 
-The Fixed ICR strategy showed consistently higher interaction forces over much of the cycle. The Moving ICR and ILC strategies produced different interaction profiles by allowing the prescribed centre of rotation to vary rather than remaining fixed.
+<p align="justify">
+
+The Fixed ICR strategy showed consistently higher interaction forces over much of the cycle. The Moving ICR strategy allowed the prescribed centre of rotation to migrate during flexion–extension, better representing the polycentric motion of the knee rather than assuming a fixed rotational centre. The ILC strategy extended this approach by adapting the desired ICR trajectory between repeated cycles using the measured interaction wrench, allowing the prescribed motion to respond to the observed robot–mechanism interaction.
+
+</p>
+
+### Experimental Demonstration
+
+The following experiment shows the FR3 and optimised cross four-bar mechanism performing the prescribed flexion–extension motion on the physical test bench.
 
 
 
+*Physical validation of the FR3-based knee motion test bench during flexion–extension.*
 
 
 
