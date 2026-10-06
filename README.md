@@ -261,25 +261,6 @@ https://github.com/user-attachments/assets/ffddfd18-4c4d-4b1e-884f-40d5fc5f038a
 
 *Physical validation of the FR3-based knee motion test bench during flexion–extension.*
 
-
-
-## What Was Achieved
-
-This work resulted in a complete robotic test bench for investigating knee flexion–extension with an explicitly moving centre of rotation.
-
-- Reconstructed the migrating knee ICR from measured tibiofemoral kinematic data.
-- Designed and optimised a cross four-bar mechanism to reproduce the reference ICR trajectory, achieving a contour RMSE of **3.28 mm**.
-- Manufactured the optimised mechanism and integrated it with a **Franka Research 3** robot.
-- Developed a **ROS 2-based joint-velocity control framework** with admittance control for compliant physical interaction.
-- Implemented and experimentally evaluated **Fixed ICR, Moving ICR, and ILC-based** control strategies.
-- Demonstrated Moving ICR control, where the FR3 directly followed the prescribed migrating ICR trajectory during flexion–extension, with admittance control 
-providing compliance during physical interaction.
-- Implemented Iterative Learning Control (ILC) to adapt the desired ICR trajectory between repeated flexion–extension cycles using interaction-wrench feedback.
-
-
-Overall, the project demonstrated the feasibility of combining biomechanical motion analysis, mechanism optimisation, and collaborative robot control to reproduce the migrating centre of rotation of the knee on a physical robotic test bench.
-
-
 ### Limitations and Future Work
 
 <p align="justify">
@@ -308,7 +289,21 @@ Future work should focus on improving the mechanical robustness and alignment of
 
 </p>
 
+## What Was Achieved
 
+This work resulted in a complete robotic test bench for investigating knee flexion–extension with an explicitly moving centre of rotation.
+
+- Reconstructed the migrating knee ICR from measured tibiofemoral kinematic data.
+- Designed and optimised a cross four-bar mechanism to reproduce the reference ICR trajectory, achieving a contour RMSE of **3.28 mm**.
+- Manufactured the optimised mechanism and integrated it with a **Franka Research 3** robot.
+- Developed a **ROS 2-based joint-velocity control framework** with admittance control for compliant physical interaction.
+- Implemented and experimentally evaluated **Fixed ICR, Moving ICR, and ILC-based** control strategies.
+- Demonstrated Moving ICR control, where the FR3 directly followed the prescribed migrating ICR trajectory during flexion–extension, with admittance control 
+providing compliance during physical interaction.
+- Implemented Iterative Learning Control (ILC) to adapt the desired ICR trajectory between repeated flexion–extension cycles using interaction-wrench feedback.
+
+
+Overall, the project demonstrated the feasibility of combining biomechanical motion analysis, mechanism optimisation, and collaborative robot control to reproduce the migrating centre of rotation of the knee on a physical robotic test bench.
 
 
 
