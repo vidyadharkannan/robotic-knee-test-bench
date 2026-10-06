@@ -132,7 +132,17 @@ The mechanism geometry therefore had to be adjusted so that the generated ICR fo
 </p>
 
 
+### Mechanism Parameters
 
+The cross four-bar geometry was defined by six design parameters: four link lengths (**l_dc, l_da, l_ab, l_cb**) and two orientation angles (**α, β**). These parameters determine the mechanism geometry and therefore the ICR trajectory generated during flexion–extension.
+
+<p align="center">
+  <img src="images/mechanism_parameters.png" width="600">
+</p>
+
+<p align="center">
+  <em>Geometric parameters used to define and optimise the cross four-bar mechanism.</em>
+</p>
 
 
 
