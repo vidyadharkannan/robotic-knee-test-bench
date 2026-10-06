@@ -262,14 +262,50 @@ The following experiment shows the FR3 and optimised cross four-bar mechanism pe
 
 
 
+## What Was Achieved
+
+This work resulted in a complete robotic test bench for investigating knee flexion–extension with an explicitly moving centre of rotation.
+
+- Reconstructed the migrating knee ICR from measured tibiofemoral kinematic data.
+- Designed and optimised a cross four-bar mechanism to reproduce the reference ICR trajectory, achieving a contour RMSE of **3.28 mm**.
+- Manufactured the optimised mechanism and integrated it with a **Franka Research 3** robot.
+- Developed a **ROS 2-based joint-velocity control framework** with admittance control for compliant physical interaction.
+- Implemented and experimentally evaluated **Fixed ICR, Moving ICR, and ILC-based** control strategies.
+- Demonstrated Moving ICR control, where the FR3 directly followed the prescribed migrating ICR trajectory during flexion–extension, with admittance control 
+providing compliance during physical interaction.
+- Implemented Iterative Learning Control (ILC) to adapt the desired ICR trajectory between repeated flexion–extension cycles using interaction-wrench feedback.
 
 
+Overall, the project demonstrated the feasibility of combining biomechanical motion analysis, mechanism optimisation, and collaborative robot control to reproduce the migrating centre of rotation of the knee on a physical robotic test bench.
 
 
+### Limitations and Future Work
+
+<p align="justify">
+
+Ideally, following the correct ICR trajectory should minimise the external interaction wrench during flexion–extension. However, non-zero interaction forces and torques remained during the physical experiments.
+
+</p>
+
+<p align="justify">
 
 
+The investigation indicated that this residual interaction could arise from several practical factors, including friction and compliance in the cross four-bar mechanism, mechanical alignment errors, differences between the modelled and physical mechanism geometry, and measurement variability. These effects mean that the physical system does not behave exactly like the ideal kinematic model.
+
+</p>
+
+<p align="justify">
+
+The ILC strategy was therefore able to produce bounded adaptations of the desired ICR trajectory, but only a modest improvement in the measured interaction was observed.
+
+</p>
 
 
+<p align="justify">
+
+Future work should focus on improving the mechanical robustness and alignment of the cross four-bar mechanism, further validating the physical ICR trajectory, and refining the ILC strategy and interaction metric through additional repeated experiments.
+
+</p>
 
 
 
