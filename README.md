@@ -227,7 +227,7 @@ Three control strategies were implemented and experimentally evaluated on the FR
 - **Iterative Learning Control (ILC):** Used interaction-wrench information from each completed flexion–extension cycle to update the desired ICR trajectory for the next cycle. The measured interaction was converted into bounded ICR corrections, allowing the desired ICR path to adapt iteratively based on the robot–mechanism interaction.
 
 <p align="center">
-  <img src="" width="650">
+  <img src="images/ilc_controller.png" width="450">
 </p>
 
 <p align="center">
